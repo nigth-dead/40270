@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+    width="200" height="200">
+    
+    <circle r="20" stroke="red" fill="green"
+        cx="50" cy="100"/>
+    <animateTransform
+      attributeName="transform"
+      begin="0s"
+      dur="1s"
+      type="rotate"
+      from="0 1 1"
+      to="360 1 1"
+      repeatCount="indefinite" />
+</svg>
