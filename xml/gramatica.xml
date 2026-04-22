@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gramatica>
+    //asignacion de variable
+    <regla>
+        <nombre>asignacion</nombre>
+        <definicion>variable '=' expresion ';'</definicion>
+    </regla>
+
+    //declaracion de variable
+    <regla>
+        <nombre>declaracion</nombre>
+        <definicion>tipo variable ';'</definicion>
+    </regla>
+    <regla>
+        <nombre>tipo</nombre>
+        <definicion>'int' | 'float' | 'string'</definicion>
+    </regla>
+</gramatica>
